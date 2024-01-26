@@ -73,4 +73,17 @@
       </plugins>
     </pluginManagement>
   </build>
+<distributionManagement>
+      <snapshotRepository>
+        <id>Nexus</id>
+        <name>devops</name>
+		<url>http://localhost:8081/repository/jenkins/</url>
+      </snapshotRepository>
+	  <repository>
+        <id>Nexus</id>
+        <name>devops</name>
+		<url>http://localhost:8081/repository/jenkins/</url>
+      </repository>
+	
+   </distributionManagement>
 </project>
